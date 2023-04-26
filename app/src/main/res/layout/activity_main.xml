@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#cyan"
+    tools:context=".MainActivity">
+
+    <TextView
+        android:id="@+id/logo"
+        android:layout_width="match_parent"
+        android:layout_height="93dp"
+        android:fontFamily="@font/russo_one"
+        android:text="@string/logo"
+        android:textAlignment="center"
+        android:layout_marginTop="50sp"
+        android:textColor="@color/black"
+        android:textSize="20sp" />
+
+    <EditText
+        android:id="@+id/user_field"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/logo"
+        android:layout_marginTop="49dp"
+        android:ems="10"
+        android:fontFamily="@font/russo_one"
+        android:hint="@string/user_field"
+        android:inputType="text"
+        android:textAlignment="center"
+        android:textColorHint="@color/black" />
+
+    <Button
+        android:id="@+id/button"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/user_field"
+        android:layout_marginHorizontal="70sp"
+        android:layout_marginTop="42dp"
+        android:layout_marginBottom="20sp"
+        android:fontFamily="@font/russo_one"
+        android:text="@string/button" />
+
+    <TextView
+        android:id="@+id/result_info"
+        android:layout_width="match_parent"
+        android:layout_height="93dp"
+        android:layout_below="@id/button"
+        android:layout_marginTop="38dp"
+        android:fontFamily="@font/russo_one"
+        android:textAlignment="center"
+        android:textColor="@color/black"
+        android:textSize="30sp" />
+
+</RelativeLayout>
